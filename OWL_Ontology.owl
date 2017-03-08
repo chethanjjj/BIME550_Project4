@@ -12,11 +12,53 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#CD4+_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B_Cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Non_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monocytes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T_Cells"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#Dendritic_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Killer_Cells"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#B_Cells"/>
+        <Class IRI="#Non_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dendritic_Cells"/>
+        <Class IRI="#Non_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monocytes"/>
+        <Class IRI="#Non_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Killer_Cells"/>
+        <Class IRI="#Non_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD4+_T_Cells"/>
+        <Class IRI="#T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD8+_T_Cells"/>
+        <Class IRI="#T_Cells"/>
+    </SubClassOf>
 </Ontology>
 
 
