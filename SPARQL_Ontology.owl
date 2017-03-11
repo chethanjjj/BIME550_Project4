@@ -88,6 +88,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8_cells"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD">
@@ -96,10 +112,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Positive_Selection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8_cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8_cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Positive_Selection"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CX -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3- -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD4_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD4_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD8_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD8_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8"/>
     </owl:Class>
     
 
@@ -136,6 +192,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD4_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD4_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD8_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD8_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_memory_CD8_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_memory_CD8_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Lymphocytes -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Lymphocytes">
@@ -154,6 +235,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Memory_B_cells">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#preMemoryBcells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Memory_Treg_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Memory_Treg_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells"/>
     </owl:Class>
     
 
@@ -206,6 +295,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD4_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD4_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD8_T_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD8_T_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_Treg_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_Treg_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Non-Classical_monocyte -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Non-Classical_monocyte">
@@ -252,10 +365,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH17_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH17_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH1_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH1_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH2_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH2_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#second_Marker_Diff"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells"/>
     </owl:Class>
     
 
@@ -279,7 +417,7 @@
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Positive_Selection"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells"/>
     </owl:Class>
     
 
@@ -294,14 +432,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#preMemoryBcells">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#B_cells"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#second_Marker_Diff -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#second_Marker_Diff">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Positive_Selection"/>
     </owl:Class>
     
 
@@ -457,6 +587,19 @@
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3-"/>
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14+"/>
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Example2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Example2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#cellExamps"/>
+        <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD20-"/>
+        <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3-"/>
+        <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19+"/>
+        <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+"/>
+        <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38+"/>
     </owl:NamedIndividual>
     
 
