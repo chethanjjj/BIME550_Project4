@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/chethanjujjavarapu/ontologies/2017/2/untitled-ontology-58">
+    <Prefix name="" IRI="http://www.semanticweb.org/chethanjujjavarapu/ontologies/2017/2/untitled-ontology-58"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,9 +17,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#B_Cells"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Non_T_Cells"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD8+_T_Cells"/>
@@ -35,22 +33,6 @@
     <Declaration>
         <Class IRI="#Natural_Killer_Cells"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#B_Cells"/>
-        <Class IRI="#Non_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dendritic_Cells"/>
-        <Class IRI="#Non_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Monocytes"/>
-        <Class IRI="#Non_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Natural_Killer_Cells"/>
-        <Class IRI="#Non_T_Cells"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#CD4+_T_Cells"/>
         <Class IRI="#T_Cells"/>
