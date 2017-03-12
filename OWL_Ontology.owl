@@ -19,7 +19,6 @@
         <Class IRI="#CD4"/>
     </Declaration>
     <Declaration>
-<<<<<<< HEAD
         <Class IRI="#Activated_Effector_Memory_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
@@ -53,8 +52,6 @@
         <Class IRI="#TH1_Cell"/>
     </Declaration>
     <Declaration>
-=======
->>>>>>> 3fa097f01eb2db635651948a31e825a4e96611b3
         <Class IRI="#CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
@@ -192,7 +189,6 @@
         <Class IRI="#Naive_Regulatory_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
-<<<<<<< HEAD
         <Class IRI="#B_Cells"/>
         <Class IRI="#Non_T_Cells"/>
     </SubClassOf>
@@ -317,8 +313,6 @@
         <Class IRI="#Naive_CD8+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
-=======
->>>>>>> 3fa097f01eb2db635651948a31e825a4e96611b3
         <Class IRI="#CD4+_T_Cells"/>
         <Class IRI="#T_Cells"/>
     </SubClassOf>
