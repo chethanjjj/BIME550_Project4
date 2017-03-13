@@ -13,43 +13,52 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#CD8-"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Naive_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CD4"/>
+        <Class IRI="#CXCR3+"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activated_Effector_Memory_CD8+_T_Cells"/>
+        <Class IRI="#HLA-DR-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Effector_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Activated_Effector_Memory_CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Activated_Central_Memory_CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCR7+_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Regulatory_T_Cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Activated_Memory_Regulatory_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Regulatory_T_Cells"/>
+        <Class IRI="#CCR6-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Central_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CD8"/>
+        <Class IRI="#CD19+"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Memory_Regulatory_T_Cells"/>
+        <Class IRI="#CD19-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD4+_T_Cells"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TH1_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD8+_T_Cells"/>
@@ -58,19 +67,13 @@
         <Class IRI="#Newly_Discovered_Cell_Types"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Effector_CD8+_T_Cells"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Non_Activated_Effector_CD4+_T_Cell"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Non_Activated_Effector_Memory_CD8+_T_Cells"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Non_Activated_Effector_Memory_CD4+_T_Cell"/>
+        <Class IRI="#CD45RO+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CellTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD45RA+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Monocytes"/>
@@ -79,70 +82,91 @@
         <Class IRI="#Activated_Naive_Regulatory_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CD3"/>
+        <Class IRI="#CXCR3-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Central_Memory_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#-"/>
+        <Class IRI="#CCR4+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cell_Surface_Markers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Central_Memory_CD8+_T_Cells"/>
+        <Class IRI="#CCR6+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD38+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Natural_Killer_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#HLA-DR+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Th17_Cell"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Naive_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Naive_CD4+_T_Cell"/>
+        <Class IRI="#CD3+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCR7-_CD4+_T_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD4-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD45RO-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dendritic_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Naive_CD8+_T_Cells"/>
+        <Class IRI="#CCR7-_CD8+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Central_Memory_CD4+_T_Cell"/>
+        <Class IRI="#CCR7-"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Helper_T_Cell"/>
+        <ObjectProperty IRI="#HasMarkerExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD25+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD45RA-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Effector_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasMarker"/>
+        <Class IRI="#Th1_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#B_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Naive_Regulatory_T_Cell"/>
+        <Class IRI="#Activated_Effector_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activated_Effector_CD8+_T_Cells"/>
+        <Class IRI="#Cell_Type_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naive_Regulatory_T_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Activated_Naive_Regulatory_T_Cells"/>
+        <Class IRI="#Th2_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Naive_CD4+_T_Cell"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TH17_Cell"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Effector_CD4+_T_Cell"/>
@@ -154,32 +178,408 @@
         <Class IRI="#Activated_Central_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Expression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Non_T_Cells"/>
+        <Class IRI="#CCR7+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasExpression"/>
+        <Class IRI="#Non_T_Cells"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Naive_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Helper_T_Cell"/>
+        <Class IRI="#Non_B_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_Regulatory_T_Cells"/>
+        <Class IRI="#CCR7+_CD8+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TH2_Cell"/>
+        <Class IRI="#CD8+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD127low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD4+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#CD3-"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Memory_Regulatory_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Memory_Regulatory_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#HLA-DR+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Naive_Regulatory_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Naive_Regulatory_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#HLA-DR+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#B_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD19+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Memory_Regulatory_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Regulatory_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RO+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Naive_Regulatory_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Regulatory_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RO-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Non_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CellTypes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD3-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Regulatory_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD127low"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR4+"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD25+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CellTypes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD3+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Th17_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CXCR3-"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR6+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Th1_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR6-"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CXCR3+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Th2_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR6-"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CXCR3-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Central_Memory_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Central_Memory_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Central_Memory_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Central_Memory_CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Effector_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Effector_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Effector_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Effector_CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Effector_Memory_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Effector_Memory_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Naive_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Naive_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activated_Naive_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Naive_CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD38+"/>
+                    <Class IRI="#HLA-DR+"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CCR7+_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR7+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CCR7+_CD8+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR7+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CCR7-_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD4+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR7-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CCR7-_CD8+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CD8+_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CCR7-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CD4+_T_Cells"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#T_Cells"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#HasMarkerExpression"/>
+                    <Class IRI="#CD4+"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD8-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Central_Memory_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7+_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Central_Memory_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7+_CD8+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Effector_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7-_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Effector_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7-_CD8+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7-_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7-_CD8+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Naive_CD4+_T_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7+_CD4+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Naive_CD8+_T_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CCR7+_CD8+_T_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD45RA+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Activated_Memory_Regulatory_T_Cells"/>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
@@ -193,24 +593,63 @@
         <Class IRI="#Non_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CD3"/>
+        <Class IRI="#CCR6-"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CD4"/>
+        <Class IRI="#CCR7-"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CD8"/>
+        <Class IRI="#CD127low"/>
         <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD19-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD3-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD4-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD45RA-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD45RO-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD8-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CXCR3-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell_Type_1"/>
+        <Class IRI="#Newly_Discovered_Cell_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell_Type_1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasMarkerExpression"/>
+            <Class IRI="#CD3-"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dendritic_Cells"/>
-        <Class IRI="#Non_T_Cells"/>
+        <Class IRI="#Non_B_Cells"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Helper_T_Cell"/>
-        <Class IRI="#Non_Regulatory_T_Cells"/>
+        <Class IRI="#HLA-DR-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
@@ -218,7 +657,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Monocytes"/>
-        <Class IRI="#Non_T_Cells"/>
+        <Class IRI="#Non_B_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Naive_Regulatory_T_Cell"/>
@@ -226,27 +665,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural_Killer_Cells"/>
-        <Class IRI="#Non_T_Cells"/>
+        <Class IRI="#Non_B_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Newly_Discovered_Cell_Types"/>
         <Class IRI="#CellTypes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Non_Activated_Memory_Regulatory_T_Cells"/>
-        <Class IRI="#Memory_Regulatory_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Naive_Regulatory_T_Cells"/>
-        <Class IRI="#Naive_Regulatory_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Helper_T_Cell"/>
-        <Class IRI="#Non_Regulatory_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Regulatory_T_Cells"/>
-        <Class IRI="#CD4+_T_Cells"/>
+        <Class IRI="#Non_B_Cells"/>
+        <Class IRI="#Non_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Non_T_Cells"/>
@@ -257,28 +684,20 @@
         <Class IRI="#CD4+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TH17_Cell"/>
-        <Class IRI="#Helper_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TH1_Cell"/>
-        <Class IRI="#Helper_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TH2_Cell"/>
-        <Class IRI="#Helper_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#T_Cells"/>
         <Class IRI="#CellTypes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#+"/>
-        <Class IRI="#Expression"/>
+        <Class IRI="#Th17_Cell"/>
+        <Class IRI="#CD4+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#-"/>
-        <Class IRI="#Expression"/>
+        <Class IRI="#Th1_Cell"/>
+        <Class IRI="#CD4+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Th2_Cell"/>
+        <Class IRI="#CD4+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Activated_Central_Memory_CD4+_T_Cell"/>
@@ -313,95 +732,131 @@
         <Class IRI="#Naive_CD8+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CCR4+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR6+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR7+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR7+_CD4+_T_Cell"/>
+        <Class IRI="#CD4+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR7+_CD8+_T_Cell"/>
+        <Class IRI="#CD8+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR7-_CD4+_T_Cell"/>
+        <Class IRI="#CD4+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCR7-_CD8+_T_Cell"/>
+        <Class IRI="#CD8+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD19+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD25+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD3+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD38+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD4+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CD4+_T_Cells"/>
         <Class IRI="#T_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CD45RA+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD45RO+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD8+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CD8+_T_Cells"/>
         <Class IRI="#T_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CXCR3+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Central_Memory_CD4+_T_Cell"/>
-        <Class IRI="#Non_Helper_T_Cell"/>
+        <Class IRI="#CCR7+_CD4+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Central_Memory_CD8+_T_Cells"/>
-        <Class IRI="#CD8+_T_Cells"/>
+        <Class IRI="#CCR7+_CD8+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Effector_CD4+_T_Cell"/>
-        <Class IRI="#Non_Helper_T_Cell"/>
+        <Class IRI="#CCR7-_CD4+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Effector_CD8+_T_Cells"/>
-        <Class IRI="#CD8+_T_Cells"/>
+        <Class IRI="#CCR7-_CD8+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
-        <Class IRI="#Non_Helper_T_Cell"/>
+        <Class IRI="#CCR7-_CD4+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
-        <Class IRI="#CD8+_T_Cells"/>
+        <Class IRI="#CCR7-_CD8+_T_Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLA-DR+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Naive_CD4+_T_Cell"/>
-        <Class IRI="#Non_Helper_T_Cell"/>
+        <Class IRI="#CCR7+_CD4+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Naive_CD8+_T_Cells"/>
-        <Class IRI="#CD8+_T_Cells"/>
+        <Class IRI="#CCR7+_CD8+_T_Cell"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Central_Memory_CD4+_T_Cell"/>
-        <Class IRI="#Central_Memory_CD4+_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Central_Memory_CD8+_T_Cells"/>
-        <Class IRI="#Central_Memory_CD8+_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Effector_CD4+_T_Cell"/>
-        <Class IRI="#Effector_CD4+_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Effector_CD8+_T_Cells"/>
-        <Class IRI="#Effector_CD8+_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Effector_Memory_CD4+_T_Cell"/>
-        <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Effector_Memory_CD8+_T_Cells"/>
-        <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Naive_CD4+_T_Cell"/>
-        <Class IRI="#Naive_CD4+_T_Cell"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Non_Activated_Naive_CD8+_T_Cells"/>
-        <Class IRI="#Naive_CD8+_T_Cells"/>
-    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Memory_Regulatory_T_Cell"/>
+        <Class IRI="#Naive_Regulatory_T_Cell"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Non_T_Cells"/>
         <Class IRI="#T_Cells"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CD4+_T_Cells"/>
+        <Class IRI="#CD8+_T_Cells"/>
+    </DisjointClasses>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasExpression"/>
-        <Class IRI="#Cell_Surface_Markers"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMarker"/>
+        <ObjectProperty IRI="#HasMarkerExpression"/>
         <Class IRI="#CellTypes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasExpression"/>
-        <Class IRI="#Expression"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMarker"/>
+        <ObjectProperty IRI="#HasMarkerExpression"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </ObjectPropertyRange>
 </Ontology>
