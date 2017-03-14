@@ -28,16 +28,19 @@
         <Class IRI="#Activated_Effector_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Activated_Central_Memory_CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Activated_Effector_Memory_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activated_Central_Memory_CD8+_T_Cells"/>
+        <Class IRI="#T_Cells"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CCR7+_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#T_Cells"/>
+        <Class IRI="#CCR6-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Regulatory_T_Cells"/>
@@ -46,13 +49,13 @@
         <Class IRI="#Activated_Memory_Regulatory_T_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CCR6-"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Central_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD19+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Classical_CD16+_Monocytes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD19-"/>
@@ -61,10 +64,19 @@
         <Class IRI="#CD4+_T_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#cytokine_producing_subset_of_NK_cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Newly_Discovered_Cell_Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transitional_B_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell_Type_2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD45RO+"/>
@@ -76,10 +88,19 @@
         <Class IRI="#CD45RA+"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Memory_B_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Myeloid_Dendritic_Cell"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Monocytes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Naive_Regulatory_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD27-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CXCR3-"/>
@@ -97,6 +118,9 @@
         <Class IRI="#CCR6+"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Non_Monocytes"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CD38+"/>
     </Declaration>
     <Declaration>
@@ -106,13 +130,37 @@
         <Class IRI="#HLA-DR+"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Circulating_B_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD38high"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Th17_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Naive_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CD24high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre_Memory_B_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plasmacytoid_Dendrtic_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IgD-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classical_Monocytes"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CD3+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD11c+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CCR7-_CD4+_T_Cell"/>
@@ -121,13 +169,22 @@
         <Class IRI="#CD4-"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CD45RO-"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Dendritic_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CD45RO-"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CCR7-_CD8+_T_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#most_cytotoxic_subset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD16-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD14-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CCR7-"/>
@@ -139,10 +196,25 @@
         <Class IRI="#CD25+"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CD27+"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CD45RA-"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Effector_CD4+_T_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD16+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD56high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD14+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD123+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Th1_Cell"/>
@@ -151,16 +223,19 @@
         <Class IRI="#B_Cells"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activated_Effector_CD8+_T_Cells"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cell_Type_1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Naive_Regulatory_T_Cell"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Activated_Effector_CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Effector_Memory_CD8+_T_Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD56low"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Th2_Cell"/>
@@ -175,16 +250,22 @@
         <Class IRI="#Effector_CD8+_T_Cells"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CCR7+"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Activated_Central_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CCR7+"/>
+        <Class IRI="#CD20-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_T_Cells"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Effector_Memory_CD4+_T_Cell"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non_T_Cells"/>
+        <Class IRI="#IgD+"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activated_Naive_CD8+_T_Cells"/>
@@ -197,6 +278,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#CD8+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naive_B_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CD127low"/>
@@ -241,12 +325,85 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Circulating_B_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pre_Memory_B_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#IgD+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Classical_Monocytes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Monocytes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD16-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dendritic_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_Monocytes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#HLA-DR+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Memory_B_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pre_Memory_B_Cell"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#IgD-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
         <ObjectIntersectionOf>
             <Class IRI="#Regulatory_T_Cells"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#HasMarkerExpression"/>
                 <Class IRI="#CD45RO+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Monocytes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_B_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD14+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Myeloid_Dendritic_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dendritic_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD11c+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Naive_B_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#B_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD27-"/>
+                    <Class IRI="#IgD+"/>
+                </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -261,12 +418,65 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Natural_Killer_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_Monocytes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD16+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Non_B_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_T_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD19-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Non_Monocytes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Non_B_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD14-"/>
+                    <Class IRI="#CD20-"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#Non_T_Cells"/>
         <ObjectIntersectionOf>
             <Class IRI="#CellTypes"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#HasMarkerExpression"/>
                 <Class IRI="#CD3-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Plasmacytoid_Dendrtic_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dendritic_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD123+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pre_Memory_B_Cell"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#B_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD27+"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -337,6 +547,39 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#HasMarkerExpression"/>
                 <Class IRI="#CXCR3-"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Transitional_B_Cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#B_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#CD24high"/>
+                    <Class IRI="#CD38high"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#cytokine_producing_subset_of_NK_cells"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Natural_Killer_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD56high"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#most_cytotoxic_subset"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Natural_Killer_Cells"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD56low"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -580,6 +823,16 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Non-Classical_CD16+_Monocytes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Monocytes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#HasMarkerExpression"/>
+                <Class IRI="#CD16+"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Activated_Memory_Regulatory_T_Cells"/>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
@@ -605,11 +858,35 @@
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CD14-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD16-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CD19-"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CD20-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD24high"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD27-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CD3-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD38high"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
@@ -622,6 +899,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CD45RO-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD56high"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD56low"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
@@ -644,12 +929,32 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cell_Type_2"/>
+        <Class IRI="#Newly_Discovered_Cell_Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circulating_B_Cell"/>
+        <Class IRI="#Pre_Memory_B_Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classical_Monocytes"/>
+        <Class IRI="#Monocytes"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dendritic_Cells"/>
-        <Class IRI="#Non_B_Cells"/>
+        <Class IRI="#Non_Monocytes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HLA-DR-"/>
         <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IgD-"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory_B_Cell"/>
+        <Class IRI="#Pre_Memory_B_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
@@ -660,12 +965,20 @@
         <Class IRI="#Non_B_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Myeloid_Dendritic_Cell"/>
+        <Class IRI="#Dendritic_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naive_B_Cell"/>
+        <Class IRI="#B_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Naive_Regulatory_T_Cell"/>
         <Class IRI="#Regulatory_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Natural_Killer_Cells"/>
-        <Class IRI="#Non_B_Cells"/>
+        <Class IRI="#Non_Monocytes"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Newly_Discovered_Cell_Types"/>
@@ -676,8 +989,20 @@
         <Class IRI="#Non_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Non_Monocytes"/>
+        <Class IRI="#Non_B_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Non_T_Cells"/>
         <Class IRI="#CellTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plasmacytoid_Dendrtic_Cell"/>
+        <Class IRI="#Dendritic_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre_Memory_B_Cell"/>
+        <Class IRI="#B_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Regulatory_T_Cells"/>
@@ -698,6 +1023,18 @@
     <SubClassOf>
         <Class IRI="#Th2_Cell"/>
         <Class IRI="#CD4+_T_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transitional_B_Cells"/>
+        <Class IRI="#B_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cytokine_producing_subset_of_NK_cells"/>
+        <Class IRI="#Natural_Killer_Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#most_cytotoxic_subset"/>
+        <Class IRI="#Natural_Killer_Cells"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Activated_Central_Memory_CD4+_T_Cell"/>
@@ -760,11 +1097,31 @@
         <Class IRI="#CD8+_T_Cells"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CD11c+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD123+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD14+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD16+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CD19+"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CD25+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD27+"/>
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
@@ -832,12 +1189,20 @@
         <Class IRI="#Cell_Surface_Markers"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#IgD+"/>
+        <Class IRI="#Cell_Surface_Markers"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Naive_CD4+_T_Cell"/>
         <Class IRI="#CCR7+_CD4+_T_Cell"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Naive_CD8+_T_Cells"/>
         <Class IRI="#CCR7+_CD8+_T_Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Classical_CD16+_Monocytes"/>
+        <Class IRI="#Monocytes"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Memory_Regulatory_T_Cell"/>
