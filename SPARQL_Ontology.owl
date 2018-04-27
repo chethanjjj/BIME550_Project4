@@ -72,6 +72,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activated_Treg_cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activated_Treg_cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Memory_Treg_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_Treg_cell"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activation_CD4_T_cells -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activation_CD4_T_cells">
@@ -183,6 +192,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD8_T_cell">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7+_CD8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Circulating_B_cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Circulating_B_cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#preMemoryBcells"/>
     </owl:Class>
     
 
@@ -426,8 +443,11 @@
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7_Diff_CD4"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4_cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Central_Memory_CD4_T_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD4_T_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_memory_CD4_T_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD4_T_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7+_C4"/>
     </owl:Class>
     
 
@@ -499,13 +519,17 @@
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:NamedIndividual>
     
 
 
@@ -519,31 +543,41 @@
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD20- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD20-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD20-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD24hi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD24hi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD24hi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
@@ -557,37 +591,49 @@
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38hi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38hi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38hi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
@@ -601,31 +647,33 @@
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56hi -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56hi"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56hi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56low -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56low"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD56low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8-"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3- -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#C_mono -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#C_mono"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CX"/>
+    </owl:NamedIndividual>
     
 
 
@@ -664,252 +712,135 @@
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3+"/>
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4+"/>
         <hasMarker rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+"/>
-        <isActivated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isActivated>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#HLA-DR -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#HLA-DR"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_B-_cells -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_B-_cells"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_Treg_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_Treg_cell">
-        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Myeloid_DC -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Myeloid_DC"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_B_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_B_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_Treg_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_Treg_cell">
-        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Treg_cells"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Plasmablast -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Plasmablast"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Plasmacytoid_DC -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Plasmacytoid_DC"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH17_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH17_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH1_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH1_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH2_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH2_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#T_B_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#T_B_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hi_NK_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hi_NK_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#low_NK_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#low_NK_cell"/>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR4+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR4+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR4+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR6+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Marker"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD11c+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD11c+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD11c+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD123+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD123+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD123+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD14+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD3+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD38+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD4+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO+"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RO+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8+"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CM_CD4+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CM_CD4+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CM_CD8+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CM_CD8+_T_cell"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD8+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3+ -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3+"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#EM_CD4+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#EM_CD4+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#EM_CD8+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#EM_CD8+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#E_CD4+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#E_CD4+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#E_CD8+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#E_CD8+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_B+_cells -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#M_B+_cells"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#NC_CD16+_mono -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#NC_CD16+_mono"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_CD4+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_CD4+_T_cell"/>
-    
-
-
-    <!-- http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_CD8+_T_cell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#N_CD8+_T_cell"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CX"/>
+    </owl:NamedIndividual>
     
 
 
@@ -989,7 +920,7 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27-"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1013,49 +944,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_B_cell"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#DCs_and_NK_cells"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#NK_cells"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#preMemoryBcells"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1153,6 +1042,48 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Monocytes"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Memory_Treg_cell"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#isActivated"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activated_Treg_cells"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1419,6 +1350,90 @@
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_Treg_cell"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#isActivated"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Activated_Treg_cells"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7-_C4"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA-"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_memory_CD4_T_cell"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
@@ -1464,48 +1479,6 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD27+"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#B_cells"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#preMemoryBcells"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD19+"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1531,6 +1504,48 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#B_cells"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH_cells"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CXCR3-"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1991,7 +2006,7 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
                                 <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA-"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -2005,7 +2020,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_memory_CD4_T_cell"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD4_T_cell"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2048,48 +2063,6 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Naive_CD8_T_cell"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CCR7-_C4"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD45RA+"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#Effector_CD4_T_cell"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
@@ -2578,6 +2551,48 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#TH17_cell"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#DCs_and_NK_cells"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#hasMarker"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#CD16+"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/administrator/ontologies/2017/2/untitled-ontology-3#NK_cells"/>
                         <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
